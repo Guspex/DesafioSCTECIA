@@ -1,0 +1,4 @@
+Modelo,AUC_CV_Media,AUC_CV_Desvio,AUC_Test
+Regressão Logística,0.5936,0.0305,0.5671
+Random Forest,0.6032,0.0241,0.5829
+Gradient Boosting,0.5956,0.0338,0.5678

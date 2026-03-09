@@ -37,7 +37,7 @@ from sklearn.metrics import (
     roc_curve, ConfusionMatrixDisplay, accuracy_score, f1_score
 )
 
-BASE = Path("/home/claude/empreendedorismo-sc")
+BASE = Path("SUA PASTA"/empreendedorismo-sc")
 DADOS = BASE / "dados" / "empresas_sc.csv"
 RESULTADOS = BASE / "resultados"
 RESULTADOS.mkdir(exist_ok=True)

@@ -142,30 +142,34 @@ Ainda assim, o modelo supera a predição aleatória (AUC = 0.50) e identifica p
 ## Estrutura do Projeto
 
 ```
-empreendedorismo-sc/
-│
-├── README.md                          # Esta documentação
-├── requirements.txt                   # Dependências do projeto
-│
-├── dados/
-│   └── empresas_sc.csv                # Dataset gerado (3.000 registros)
-│
-├── src/
-│   ├── gerar_dataset.py               # Gerador do dataset sintético calibrado
-│   └── analise_principal.py           # Pipeline completo de análise e modelagem
-│
-└── resultados/
-    ├── 01_distribuicao_porte_setor.png
-    ├── 02_regioes_sobrevivencia.png
-    ├── 03_indicadores_setor.png
-    ├── 04_correlacao.png
-    ├── 05_fatores_sobrevivencia.png
-    ├── 06_roc_confusao.png
-    ├── 07_importancia_variaveis.png
-    ├── 08_comparacao_modelos.png
-    ├── tab_resumo_porte.csv
-    ├── tab_resumo_setor.csv
-    └── tab_metricas_modelos.csv
+DesafioSCTECIA/
+|
+├── LICENSE
+├── README.md 
+| 
+└── empreendedorismo-sc/
+    ├── requirements.txt                   # Dependências do projeto
+    │
+    ├── dados/
+    │   └── empresas_sc.csv                # Dataset gerado (3.000 registros)
+    │
+    ├── src/
+    │   ├── gerar_dataset.py               # Gerador do dataset sintético calibrado
+    │   └── analise_principal.py           # Pipeline completo de análise e modelagem
+    │
+    └── resultados/
+        ├── 01_distribuicao_porte_setor.png
+        ├── 02_regioes_sobrevivencia.png
+        ├── 03_indicadores_setor.png
+        ├── 04_correlacao.png
+        ├── 05_fatores_sobrevivencia.png
+        ├── 06_roc_confusao.png
+        ├── 07_importancia_variaveis.png
+        ├── 08_comparacao_modelos.png
+        ├── tab_resumo_porte.csv
+        ├── tab_resumo_setor.csv
+        └── tab_metricas_modelos.csv
+
 ```
 
 ---

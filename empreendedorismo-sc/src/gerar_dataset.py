@@ -209,6 +209,6 @@ def gerar_dataset(n: int = N) -> pd.DataFrame:
 
 if __name__ == "__main__":
     df = gerar_dataset()
-    df.to_csv("/home/claude/empreendedorismo-sc/dados/empresas_sc.csv", index=False)
+    df.to_csv("SUA PASTA/empreendedorismo-sc/dados/empresas_sc.csv", index=False)
     print(f"Dataset gerado: {len(df)} registros, {df.columns.tolist()}")
     print(df.head())
